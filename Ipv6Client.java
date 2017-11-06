@@ -1,7 +1,7 @@
 /*****************************************
 *	Alfredo Ceballos
 *	CS 380 - Computer Networks
-*	Project 3
+*	Project 4
 *	Professor Nima Davarpanah
 *****************************************/
 
@@ -100,7 +100,6 @@ public class Ipv6Client{
 	}
 	
 	
-	
 	public static void main(String[] args) throws Exception {
 		try (Socket socket = new Socket("18.221.102.182", 38004))
 		{
@@ -119,8 +118,8 @@ public class Ipv6Client{
 					System.out.printf("%02X", b);
 				}
 				System.out.println();
-			}
+			} // End of for loop
 		}	
-	}
+	} // End of main
 	
 }
